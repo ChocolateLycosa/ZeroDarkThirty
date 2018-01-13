@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement">
+      <UniqueIdentifier>{569c9ef5-bf44-418e-a9ef-7f1e96f299cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement">
+      <UniqueIdentifier>{c95c902f-ef69-45c0-b5e7-45761ecf5639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\General">
+      <UniqueIdentifier>{1625aff7-d8c5-4cbe-80ad-82b63c8b06dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Inventory">
+      <UniqueIdentifier>{5e3cbaac-30cb-4ce8-a732-b896be5fad50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Equipement">
+      <UniqueIdentifier>{041bb392-919d-4f44-b6a3-9a9540dc59de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills">
+      <UniqueIdentifier>{7bac5dfa-d568-4749-9576-807cb4185b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Equipement">
+      <UniqueIdentifier>{de57dde0-a756-44cf-b314-d28ed108716e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\General">
+      <UniqueIdentifier>{d24a2b41-2ee7-4e15-b163-e692c1e8361a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Inventory">
+      <UniqueIdentifier>{bad93edd-07af-4855-a844-f812028eaf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills">
+      <UniqueIdentifier>{57807d4f-5b26-48ce-b622-1755d368b706}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDTGameEngine.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPoints.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDTGameEngine.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Fichiers sources\CharacterManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPoints.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

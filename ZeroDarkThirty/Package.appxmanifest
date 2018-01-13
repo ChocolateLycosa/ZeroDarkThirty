@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="cee38f03-3225-4593-add9-2f1b8384c73b"
+    Name="7a06419d-ecf0-4cc9-b59f-14c57478e547"
     Publisher="CN=stephane"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="cee38f03-3225-4593-add9-2f1b8384c73b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="7a06419d-ecf0-4cc9-b59f-14c57478e547" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ZeroDarkThirty</DisplayName>

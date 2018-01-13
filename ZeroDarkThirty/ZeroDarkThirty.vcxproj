@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{c88f310a-7ba4-4ff5-bd8a-9bccbc3f35bb}</ProjectGuid>
+    <ProjectGuid>{b49168b8-3133-4975-a8d3-9bae7bc09eb6}</ProjectGuid>
     <Keyword>DirectXApp</Keyword>
     <RootNamespace>ZeroDarkThirty</RootNamespace>
     <DefaultLanguage>fr-FR</DefaultLanguage>

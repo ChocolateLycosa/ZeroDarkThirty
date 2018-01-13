@@ -1,10 +1,9 @@
 ﻿#include "pch.h"
 #include "Sample3DSceneRenderer.h"
-
+#include "ZDTGameEngine/stdafx.h"
 #include "..\Common\DirectXHelper.h"
 
 using namespace ZeroDarkThirty;
-
 using namespace DirectX;
 using namespace Windows::Foundation;
 
@@ -15,6 +14,7 @@ Sample3DSceneRenderer::Sample3DSceneRenderer(const std::shared_ptr<DX::DeviceRes
 	m_indexCount(0),
 	m_tracking(false),
 	m_deviceResources(deviceResources)
+	
 {
 	CreateDeviceDependentResources();
 	CreateWindowSizeDependentResources();

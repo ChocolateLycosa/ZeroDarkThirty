@@ -2,14 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Éléments communs">
-      <UniqueIdentifier>c88f310a-7ba4-4ff5-bd8a-9bccbc3f35bb</UniqueIdentifier>
+      <UniqueIdentifier>b49168b8-3133-4975-a8d3-9bae7bc09eb6</UniqueIdentifier>
     </Filter>
     <Filter Include="Actifs">
-      <UniqueIdentifier>a70a400d-e1fd-4e01-9ceb-ad62b6a42898</UniqueIdentifier>
+      <UniqueIdentifier>ddb4972e-dba0-4c88-8cf9-c5ce81d70fe3</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
 	<Filter Include="Contenu">
-      <UniqueIdentifier>ed4b8d40-3406-4ab9-aa89-a91fb6dc3520</UniqueIdentifier>
+      <UniqueIdentifier>78b4e784-3e26-462c-b731-b842906c3cb5</UniqueIdentifier>
     </Filter>
     <ClInclude Include="Common\DirectXHelper.h">
       <Filter>Éléments communs</Filter>
