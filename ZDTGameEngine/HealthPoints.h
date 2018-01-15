@@ -7,7 +7,8 @@ namespace ZDTGameEngine {
 			class HealthPoints : Stat
 			{
 				public:
-					HealthPoints();
+					HealthPoints(int val);
+					HealthPoints(int val, int max);
 					~HealthPoints();
 			};
 

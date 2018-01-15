@@ -61,7 +61,7 @@
       <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
     <ClInclude Include="HealthPoints.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -78,7 +78,7 @@
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
     <ClCompile Include="HealthPoints.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
