@@ -148,7 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />
+    <ClInclude Include="ExpGauge.h" />
     <ClInclude Include="HealthPoints.h" />
+    <ClInclude Include="ManaPoints.h" />
+    <ClInclude Include="SpecialPoints.h" />
+    <ClInclude Include="StaminaPoints.h" />
     <ClInclude Include="Stat.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -156,7 +160,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="ExpGauge.cpp" />
     <ClCompile Include="HealthPoints.cpp" />
+    <ClCompile Include="ManaPoints.cpp" />
+    <ClCompile Include="SpecialPoints.cpp" />
+    <ClCompile Include="StaminaPoints.cpp" />
     <ClCompile Include="Stat.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

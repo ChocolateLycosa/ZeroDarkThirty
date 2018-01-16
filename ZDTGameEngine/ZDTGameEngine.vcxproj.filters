@@ -22,9 +22,6 @@
     <Filter Include="Fichiers sources\CharacterManagement\General">
       <UniqueIdentifier>{1625aff7-d8c5-4cbe-80ad-82b63c8b06dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\CharacterManagement\Inventory">
-      <UniqueIdentifier>{5e3cbaac-30cb-4ce8-a732-b896be5fad50}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\CharacterManagement\Equipement">
       <UniqueIdentifier>{041bb392-919d-4f44-b6a3-9a9540dc59de}</UniqueIdentifier>
     </Filter>
@@ -37,11 +34,38 @@
     <Filter Include="Fichiers d%27en-tête\CharacterManagement\General">
       <UniqueIdentifier>{d24a2b41-2ee7-4e15-b163-e692c1e8361a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Inventory">
-      <UniqueIdentifier>{bad93edd-07af-4855-a844-f812028eaf1c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills">
       <UniqueIdentifier>{57807d4f-5b26-48ce-b622-1755d368b706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ItemManagement">
+      <UniqueIdentifier>{f6efd4fa-5b1a-4bf4-b0e8-46ef63968a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\ItemManagement">
+      <UniqueIdentifier>{7a56d703-42a0-4763-8d2c-61db763a9820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Classes">
+      <UniqueIdentifier>{5b61d8a5-b2c9-40a4-b063-3e0eb5b1f003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Competences">
+      <UniqueIdentifier>{dabb43cd-364b-48b3-ae92-7f96b0427b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Technique">
+      <UniqueIdentifier>{aed1f9dd-62c9-475b-b319-4d37e0cb6024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Util">
+      <UniqueIdentifier>{176897df-a6dd-42e7-8f76-8ab02f90e8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\General\Util">
+      <UniqueIdentifier>{63a3c018-0e82-45b9-9e31-e0f00c69463d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills\Classes">
+      <UniqueIdentifier>{74639e57-7641-426e-ac81-b47223f65b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills\Competences">
+      <UniqueIdentifier>{9b898d98-0c16-4fb8-99dd-3b88b57c0ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills\Util">
+      <UniqueIdentifier>{c9db0160-f6dc-4cbf-809a-f14c1f708a25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +87,18 @@
     <ClInclude Include="HealthPoints.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
+    <ClInclude Include="ExpGauge.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
+    <ClInclude Include="ManaPoints.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialPoints.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
+    <ClInclude Include="StaminaPoints.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +114,18 @@
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
     <ClCompile Include="HealthPoints.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpGauge.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="ManaPoints.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialPoints.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="StaminaPoints.cpp">
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
   </ItemGroup>
