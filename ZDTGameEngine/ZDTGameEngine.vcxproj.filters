@@ -49,9 +49,6 @@
     <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Competences">
       <UniqueIdentifier>{dabb43cd-364b-48b3-ae92-7f96b0427b47}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Technique">
-      <UniqueIdentifier>{aed1f9dd-62c9-475b-b319-4d37e0cb6024}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Util">
       <UniqueIdentifier>{176897df-a6dd-42e7-8f76-8ab02f90e8db}</UniqueIdentifier>
     </Filter>
@@ -66,6 +63,27 @@
     </Filter>
     <Filter Include="Fichiers sources\CharacterManagement\Skills\Util">
       <UniqueIdentifier>{c9db0160-f6dc-4cbf-809a-f14c1f708a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resources">
+      <UniqueIdentifier>{d95e104a-1199-4b6d-aae3-b0afe496ee26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ItemManagement">
+      <UniqueIdentifier>{deec22cb-9b42-46af-9d1a-ce63a46249cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Resources">
+      <UniqueIdentifier>{df8d8ba8-422c-48f4-bd2c-dba94b07c9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives">
+      <UniqueIdentifier>{b938ff47-4213-483f-8431-8925c1690ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Passives">
+      <UniqueIdentifier>{43edfaf1-50b8-4b59-8c54-f9fc7b91816b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills\Competences\Actives">
+      <UniqueIdentifier>{1c212983-c3d0-4898-9d6f-ca82edf0d6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Skills\Competences\Passives">
+      <UniqueIdentifier>{88faa4cf-71b6-4cf5-a948-d3846852e4f1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +117,36 @@
     <ClInclude Include="StaminaPoints.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
+    <ClInclude Include="Classe.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CorpsACorps.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Support.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicAttack.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalSkill.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClInclude>
+    <ClInclude Include="Rune.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -127,6 +175,36 @@
     </ClCompile>
     <ClCompile Include="StaminaPoints.cpp">
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Classe.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CorpsACorps.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Support.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engineer.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicAttack.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalSkill.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClCompile>
+    <ClCompile Include="Rune.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Competences\Actives</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Skills\Competences\Actives</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
