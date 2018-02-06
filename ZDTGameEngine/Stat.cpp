@@ -18,7 +18,7 @@ Stat::Stat(const char *valueName)
 
 Stat::Stat(const char *valueName, int maxValue)
 {
-	this->valueName = (std::string *)strdup(valueName);
+	this->valueName = new std::string(valueName);
 	this->maxValue = maxValue;
 	this->value = maxValue;
 }

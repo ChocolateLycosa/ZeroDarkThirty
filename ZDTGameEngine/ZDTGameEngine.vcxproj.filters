@@ -85,6 +85,9 @@
     <Filter Include="Fichiers sources\CharacterManagement\Skills\Competences\Passives">
       <UniqueIdentifier>{88faa4cf-71b6-4cf5-a948-d3846852e4f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resources\Database">
+      <UniqueIdentifier>{673cd02e-eb58-49ce-8cff-6bb9ae84de01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
