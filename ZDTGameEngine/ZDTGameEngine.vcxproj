@@ -152,6 +152,7 @@
     <ClInclude Include="Classe.h" />
     <ClInclude Include="CorpsACorps.h" />
     <ClInclude Include="Engineer.h" />
+    <ClInclude Include="Equipement.h" />
     <ClInclude Include="ExpGauge.h" />
     <ClInclude Include="HealthPoints.h" />
     <ClInclude Include="Mage.h" />
@@ -159,6 +160,7 @@
     <ClInclude Include="PhysicalSkill.h" />
     <ClInclude Include="Rune.h" />
     <ClInclude Include="Skill.h" />
+    <ClInclude Include="SkillSet.h" />
     <ClInclude Include="SpecialPoints.h" />
     <ClInclude Include="Spell.h" />
     <ClInclude Include="StaminaPoints.h" />
@@ -174,6 +176,7 @@
     <ClCompile Include="Classe.cpp" />
     <ClCompile Include="CorpsACorps.cpp" />
     <ClCompile Include="Engineer.cpp" />
+    <ClCompile Include="Equipement.cpp" />
     <ClCompile Include="ExpGauge.cpp" />
     <ClCompile Include="HealthPoints.cpp" />
     <ClCompile Include="Mage.cpp" />
@@ -181,6 +184,7 @@
     <ClCompile Include="PhysicalSkill.cpp" />
     <ClCompile Include="Rune.cpp" />
     <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="SkillSet.cpp" />
     <ClCompile Include="SpecialPoints.cpp" />
     <ClCompile Include="Spell.cpp" />
     <ClCompile Include="StaminaPoints.cpp" />

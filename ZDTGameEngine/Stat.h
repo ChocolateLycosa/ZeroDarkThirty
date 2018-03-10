@@ -11,8 +11,8 @@ namespace ZDTGameEngine
 			{
 				public:
 					Stat();
-					Stat(const char *valueName);
-					Stat(const char *valueName, int maxValue);
+					Stat(std::string valueName);
+					Stat(std::string valueName, int maxValue);
 					~Stat();
 					virtual int GetValue();
 					virtual void SetValue(int value);

@@ -9,14 +9,14 @@ Stat::Stat()
 	this->valueName = NULL;
 }
 
-Stat::Stat(const char *valueName)
+Stat::Stat(std::string valueName)
 {
 	this->valueName = new std::string(valueName);
 }
 
 
 
-Stat::Stat(const char *valueName, int maxValue)
+Stat::Stat(std::string valueName, int maxValue)
 {
 	this->valueName = new std::string(valueName);
 	this->maxValue = maxValue;
@@ -50,9 +50,8 @@ std::string * Stat::GetValueName()
 {
 	return this->valueName;
 }
-void Stat::SetValueName(std::string * valueName)
+void Stat::SetValueName(std::string *valueName)
 {
-	this->valueName->erase();
-	this->valueName->assign((char *)valueName);
+	delete this->valueName;
+	this->valueName = new std::string(valueName->data());
 }
-
