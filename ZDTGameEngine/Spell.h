@@ -1,8 +1,23 @@
 #pragma once
-class Spell
+namespace ZDTGameEngine
 {
-public:
-	Spell();
-	~Spell();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Competences
+			{
+				namespace Actives
+				{
+					class Spell
+					{
+					public:
+						Spell();
+						~Spell();
+					};
+				}
+			}
+		}
+	}
+}
 

@@ -88,6 +88,12 @@
     <Filter Include="Fichiers d%27en-tête\Resources\Database">
       <UniqueIdentifier>{673cd02e-eb58-49ce-8cff-6bb9ae84de01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\TestsUnitaires">
+      <UniqueIdentifier>{95db5b91-1db3-4ea2-8137-20c71462325a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UnitTests">
+      <UniqueIdentifier>{b42e5748-388f-432b-807c-b78b3047534c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

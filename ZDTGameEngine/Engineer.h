@@ -1,8 +1,19 @@
 #pragma once
-class Engineer
+namespace ZDTGameEngine
 {
-public:
-	Engineer();
-	~Engineer();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Classes {
+				class Engineer
+				{
+				public:
+					Engineer();
+					~Engineer();
+				};
+			}
+		}
+	}
+}
 

@@ -1,8 +1,17 @@
 #pragma once
-class Equipement
+namespace ZDTGameEngine
 {
-public:
-	Equipement();
-	~Equipement();
-};
+	namespace CharacterManagement
+	{
+		namespace Equipement
+		{
+			class Equipement
+			{
+			public:
+				Equipement();
+				~Equipement();
+			};
+		}
+	}
+}
 

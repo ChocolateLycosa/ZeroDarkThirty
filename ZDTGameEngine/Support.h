@@ -1,8 +1,19 @@
 #pragma once
-class Support
+namespace ZDTGameEngine
 {
-public:
-	Support();
-	~Support();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Classes {
+				class Support
+				{
+				public:
+					Support();
+					~Support();
+				};
+			}
+		}
+	}
+}
 

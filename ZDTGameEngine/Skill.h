@@ -1,8 +1,23 @@
 #pragma once
-class Skill
+namespace ZDTGameEngine
 {
-public:
-	Skill();
-	~Skill();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Competences
+			{
+				namespace Actives
+				{
+					class Skill
+					{
+					public:
+						Skill();
+						~Skill();
+					};
+				}
+			}
+		}
+	}
+}
 

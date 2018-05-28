@@ -2,7 +2,6 @@
 #include "HealthPoints.h"
 
 using namespace ZDTGameEngine::CharacterManagement::General;
-
 HealthPoints::HealthPoints(int val) : Stat("HP", val)
 {
 	this->increaseRate = 30;

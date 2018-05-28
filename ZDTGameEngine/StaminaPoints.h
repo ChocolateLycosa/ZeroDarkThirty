@@ -1,8 +1,17 @@
 #pragma once
-class StaminaPoints
+namespace ZDTGameEngine
 {
-public:
-	StaminaPoints();
-	~StaminaPoints();
-};
+	namespace CharacterManagement
+	{
+		namespace General
+		{
+			class StaminaPoints
+			{
+			public:
+				StaminaPoints();
+				~StaminaPoints();
+			};
+		}
+	}
+}
 

@@ -1,8 +1,23 @@
 #pragma once
-class Rune
+namespace ZDTGameEngine
 {
-public:
-	Rune();
-	~Rune();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Competences
+			{
+				namespace Actives
+				{
+					class Rune
+					{
+					public:
+						Rune();
+						~Rune();
+					};
+				}
+			}
+		}
+	}
+}
 

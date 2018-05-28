@@ -1,8 +1,19 @@
 #pragma once
-class Mage
+namespace ZDTGameEngine
 {
-public:
-	Mage();
-	~Mage();
-};
+	namespace CharacterManagement
+	{
+		namespace Skills
+		{
+			namespace Classes {
+				class Mage
+				{
+				public:
+					Mage();
+					~Mage();
+				};
+			}
+		}
+	}
+}
 

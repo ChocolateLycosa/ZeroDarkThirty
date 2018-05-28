@@ -1,8 +1,17 @@
 #pragma once
-class SpecialPoints
+namespace ZDTGameEngine
 {
-public:
-	SpecialPoints();
-	~SpecialPoints();
-};
+	namespace CharacterManagement
+	{
+		namespace General
+		{
+			class SpecialPoints
+			{
+			public:
+				SpecialPoints();
+				~SpecialPoints();
+			};
+		}
+	}
+}
 

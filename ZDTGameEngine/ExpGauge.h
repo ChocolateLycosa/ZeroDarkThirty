@@ -1,8 +1,17 @@
 #pragma once
-class ExpGauge
+namespace ZDTGameEngine
 {
-public:
-	ExpGauge();
-	~ExpGauge();
-};
+	namespace CharacterManagement
+	{
+		namespace General
+		{
+			class ExpGauge
+			{
+			public:
+				ExpGauge();
+				~ExpGauge();
+			};
+		}
+	}
+}
 
