@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Equipement.h"
 
-using namespace ZDTGameEngine::CharacterManagement::Equipement;
+using ZDTGameEngine::CharacterManagement::Equip::Equipement;
 Equipement::Equipement()
 {
 }

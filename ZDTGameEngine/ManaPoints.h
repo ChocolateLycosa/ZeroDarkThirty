@@ -1,17 +1,15 @@
 #pragma once
 #include "Stat.h"
-namespace ZDTGameEngine {
-	namespace CharacterManagement {
-		namespace General {
-			class ManaPoints : Stat
-			{
-			public:
-				ManaPoints();
-				~ManaPoints();
-			};
 
-		}
-	}
+namespace ZDTGameEngine::CharacterManagement::General
+{
+	class ManaPoints : Stat
+	{
+	public:
+
+		ManaPoints();
+		~ManaPoints();
+	};
 }
 
 

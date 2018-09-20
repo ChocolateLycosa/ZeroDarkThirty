@@ -1,19 +1,12 @@
 #pragma once
-namespace ZDTGameEngine
+namespace ZDTGameEngine::CharacterManagement::Skills::Classes
 {
-	namespace CharacterManagement
+	class CorpsACorps
 	{
-		namespace Skills
-		{
-			namespace Classes {
-				class CorpsACorps
-				{
-				public:
-					CorpsACorps();
-					~CorpsACorps();
-				};
-			}
-		}
-	}
+	public:
+		CorpsACorps();
+		~CorpsACorps();
+	};
 }
+
 

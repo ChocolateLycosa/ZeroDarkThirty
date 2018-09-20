@@ -20,10 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{7C31B5C6-9F81-4B2E-8F1B-72B97FC7FA2B}</ProjectGuid>
+    <ProjectGuid>{0771FA7C-02FC-4A81-91EC-3A338C9DD24D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ZDTGameEngine</RootNamespace>
+    <RootNamespace>ZDTDatabaseRepository</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <TargetFrameworkVersion>4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -33,7 +34,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -44,15 +45,12 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <CLRSupport>false</CLRSupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -91,9 +89,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;ZDTDATABASEREPOSITORY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -106,15 +103,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ZDTDATABASEREPOSITORY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -125,7 +119,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ZDTDATABASEREPOSITORY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -143,7 +137,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;ZDTDATABASEREPOSITORY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -154,56 +148,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BasicAttack.h" />
-    <ClInclude Include="Character.h" />
-    <ClInclude Include="Classe.h" />
-    <ClInclude Include="CorpsACorps.h" />
-    <ClInclude Include="Engineer.h" />
-    <ClInclude Include="Equipement.h" />
-    <ClInclude Include="ExpGauge.h" />
-    <ClInclude Include="HealthPoints.h" />
-    <ClInclude Include="Mage.h" />
-    <ClInclude Include="ManaPoints.h" />
-    <ClInclude Include="PhysicalSkill.h" />
-    <ClInclude Include="Rune.h" />
-    <ClInclude Include="Skill.h" />
-    <ClInclude Include="SkillSet.h" />
-    <ClInclude Include="SpecialPoints.h" />
-    <ClInclude Include="Spell.h" />
-    <ClInclude Include="StaminaPoints.h" />
-    <ClInclude Include="Stat.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Support.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="ZDTGameEngine.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicAttack.cpp" />
-    <ClCompile Include="Character.cpp" />
-    <ClCompile Include="Classe.cpp" />
-    <ClCompile Include="CorpsACorps.cpp" />
-    <ClCompile Include="Engineer.cpp" />
-    <ClCompile Include="Equipement.cpp" />
-    <ClCompile Include="ExpGauge.cpp" />
-    <ClCompile Include="HealthPoints.cpp" />
-    <ClCompile Include="Mage.cpp" />
-    <ClCompile Include="ManaPoints.cpp" />
-    <ClCompile Include="PhysicalSkill.cpp" />
-    <ClCompile Include="Rune.cpp" />
-    <ClCompile Include="Skill.cpp" />
-    <ClCompile Include="SkillSet.cpp" />
-    <ClCompile Include="SpecialPoints.cpp" />
-    <ClCompile Include="Spell.cpp" />
-    <ClCompile Include="StaminaPoints.cpp" />
-    <ClCompile Include="Stat.cpp" />
+    <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Support.cpp" />
-    <ClCompile Include="ZDTGameEngine.cpp" />
+    <ClCompile Include="ZDTDatabaseRepository.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

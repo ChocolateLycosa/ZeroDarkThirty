@@ -1,22 +1,17 @@
 #pragma once
 #include "Stat.h"
 
-namespace ZDTGameEngine
+namespace ZDTGameEngine::CharacterManagement::General
 {
-	namespace CharacterManagement
+	class HealthPoints : Stat
 	{
-		namespace General
-		{
-			class HealthPoints : Stat
-			{
-				public:
-					HealthPoints(int val);
-					HealthPoints(int val, int max);
-					~HealthPoints();
-			};
-
-		}
-	}
+	public:
+		HealthPoints(int val);
+		HealthPoints(int val, int max);
+		HealthPoints();
+		~HealthPoints();
+	};
 }
-	
+
+
 

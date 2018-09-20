@@ -12,6 +12,10 @@ HealthPoints::HealthPoints(int val, int max) : Stat("HP", max)
 	this->value = val;
 }
 
+HealthPoints::HealthPoints()
+{
+}
+
 
 HealthPoints::~HealthPoints()
 {

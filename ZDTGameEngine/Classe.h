@@ -1,21 +1,13 @@
 #pragma once
-namespace ZDTGameEngine
+namespace ZDTGameEngine::CharacterManagement::Skills::Classes
 {
-	namespace CharacterManagement
+	class Classe
 	{
-		namespace Skills
-		{
-			namespace Classes
-			{
-				class Classe
-				{
-				public:
-					Classe();
-					~Classe();
-				};
-			}
-		}
-	}
+	public:
+		Classe();
+		~Classe();
+	};
 }
+
 
 

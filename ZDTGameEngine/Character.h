@@ -7,32 +7,26 @@
 #include "Classe.h"
 #include "SkillSet.h"
 #include "Equipement.h"
+using namespace ZDTGameEngine::CharacterManagement::General;
+using ZDTGameEngine::CharacterManagement::Skills::Classes::Classe;
+using ZDTGameEngine::CharacterManagement::Equip::Equipement;
+using ZDTGameEngine::CharacterManagement::Skills::Util::SkillSet;
+class Character
+{
+public:
+	Character();
+	~Character();
+protected:
+	std::string *name;
+	HealthPoints *hp;
+	ManaPoints *mp;
+	ExpGauge *expGauge;
+	SpecialPoints *splp;
+	StaminaPoints *stmp;
+	Classe	*classe;
+	Equipement *equipement;
+	SkillSet *skillSet;
 
-
-namespace ZDTGameEngine {
-	namespace CharacterManagement {
-		using namespace General;
-		class Character
-		{
-			public:
-				Character();
-				~Character();
-			protected:
-				std::string *name;
-				HealthPoints *hp;
-				ManaPoints *mp;
-				ExpGauge *expGauge;
-				SpecialPoints *splp;
-				StaminaPoints *stmp;
-				Classe	*classe;
-				Equipement *equipement;
-				SkillSet *skillSet;
-
-		};
-
-
-
-	}
 };
 
 
