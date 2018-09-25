@@ -88,11 +88,14 @@
     <Filter Include="Fichiers d%27en-tête\Resources\Database">
       <UniqueIdentifier>{673cd02e-eb58-49ce-8cff-6bb9ae84de01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\TestsUnitaires">
-      <UniqueIdentifier>{95db5b91-1db3-4ea2-8137-20c71462325a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\UnitTests">
       <UniqueIdentifier>{b42e5748-388f-432b-807c-b78b3047534c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Stats">
+      <UniqueIdentifier>{211b02a6-64a6-4288-b050-16b13a87ba26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Stats">
+      <UniqueIdentifier>{8695abb4-bcff-4b2c-a8b4-b20cf16196ff}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -107,9 +110,6 @@
     </ClInclude>
     <ClInclude Include="Character.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement</Filter>
-    </ClInclude>
-    <ClInclude Include="Stat.h">
-      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
     <ClInclude Include="HealthPoints.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
@@ -162,6 +162,9 @@
     <ClInclude Include="Equipement.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement</Filter>
     </ClInclude>
+    <ClInclude Include="Jauge.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -172,9 +175,6 @@
     </ClCompile>
     <ClCompile Include="Character.cpp">
       <Filter>Fichiers sources\CharacterManagement</Filter>
-    </ClCompile>
-    <ClCompile Include="Stat.cpp">
-      <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
     <ClCompile Include="HealthPoints.cpp">
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
@@ -226,6 +226,9 @@
     </ClCompile>
     <ClCompile Include="Equipement.cpp">
       <Filter>Fichiers sources\CharacterManagement\Equipement</Filter>
+    </ClCompile>
+    <ClCompile Include="Jauge.cpp">
+      <Filter>Fichiers sources\CharacterManagement\General</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

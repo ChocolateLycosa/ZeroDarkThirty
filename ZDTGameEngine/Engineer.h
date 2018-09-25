@@ -1,5 +1,7 @@
 #pragma once
-namespace ZDTGameEngine::CharacterManagement::Skills::Classes {
+#include "Classe.h"
+namespace ZDTGameEngine::CharacterManagement::Skills::Classes
+{
 	class Engineer
 	{
 	public:

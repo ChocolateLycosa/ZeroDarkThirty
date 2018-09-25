@@ -1,19 +1,13 @@
 #pragma once
-namespace ZDTGameEngine
+#include "Classe.h"
+namespace ZDTGameEngine::CharacterManagement::Skills::Classes
 {
-	namespace CharacterManagement
+	class Support : Classe
 	{
-		namespace Skills
-		{
-			namespace Classes {
-				class Support
-				{
-				public:
-					Support();
-					~Support();
-				};
-			}
-		}
-	}
+	public:
+		Support();
+		~Support();
+	};
+
 }
 

@@ -1,23 +1,11 @@
 #pragma once
-namespace ZDTGameEngine
+namespace ZDTGameEngine::CharacterManagement::Skills::Competences::Actives
 {
-	namespace CharacterManagement
+	class BasicAttack
 	{
-		namespace Skills
-		{
-			namespace Competences
-			{
-				namespace Actives
-				{
-					class BasicAttack
-					{
-					public:
-						BasicAttack();
-						~BasicAttack();
-					};
-				}
-			}
-		}
-	}
+	public:
+		BasicAttack();
+		~BasicAttack();
+	};
 }
 

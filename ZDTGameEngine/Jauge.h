@@ -3,16 +3,17 @@
 #include <string>
 namespace ZDTGameEngine::CharacterManagement::General
 {
-	class Stat
+	class Jauge
 	{
 	public:
-		Stat();
-		Stat(std::string valueName);
-		Stat(std::string valueName, int maxValue);
-		~Stat();
-		virtual int GetValue();
+		Jauge();
+		Jauge(std::string valueName);
+		Jauge(std::string valueName, int maxValue);
+		Jauge(std::string valueName, int val, int maxValue);
+		~Jauge();
+		int GetValue();
 		virtual void SetValue(int value);
-		virtual int GetMaxValue();
+		int GetMaxValue();
 		virtual void SetMaxValue(int value);
 		virtual std::string *GetValueName();
 		virtual void SetValueName(std::string *valueName);
@@ -20,7 +21,7 @@ namespace ZDTGameEngine::CharacterManagement::General
 		std::string *valueName;
 		int value;
 		int maxValue;
-		float increaseRate;
+		double increaseRate;
 	};
 }
 

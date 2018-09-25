@@ -1,19 +1,13 @@
 #pragma once
-namespace ZDTGameEngine
+#include "Classe.h"
+namespace ZDTGameEngine::CharacterManagement::Skills::Classes
 {
-	namespace CharacterManagement
+	class Mage
 	{
-		namespace Skills
-		{
-			namespace Classes {
-				class Mage
-				{
-				public:
-					Mage();
-					~Mage();
-				};
-			}
-		}
-	}
+	public:
+		Mage();
+		~Mage();
+	};
+
 }
 

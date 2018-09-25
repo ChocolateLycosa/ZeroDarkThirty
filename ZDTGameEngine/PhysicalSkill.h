@@ -1,23 +1,12 @@
 #pragma once
-namespace ZDTGameEngine
+namespace ZDTGameEngine::CharacterManagement::Skills::Competences::Actives
 {
-	namespace CharacterManagement
+	class PhysicalSkill
 	{
-		namespace Skills
-		{
-			namespace Competences
-			{
-				namespace Actives
-				{
-					class PhysicalSkill
-					{
-					public:
-						PhysicalSkill();
-						~PhysicalSkill();
-					};
-				}
-			}
-		}
-	}
+	public:
+		PhysicalSkill();
+		~PhysicalSkill();
+	};
+
 }
 

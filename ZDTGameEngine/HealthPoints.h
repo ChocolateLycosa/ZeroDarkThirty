@@ -1,9 +1,9 @@
 #pragma once
-#include "Stat.h"
+#include "Jauge.h"
 
 namespace ZDTGameEngine::CharacterManagement::General
 {
-	class HealthPoints : Stat
+	class HealthPoints : public Jauge
 	{
 	public:
 		HealthPoints(int val);
