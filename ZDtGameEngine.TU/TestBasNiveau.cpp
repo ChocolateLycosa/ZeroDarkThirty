@@ -6,6 +6,7 @@
 #include "../ZDTGameEngine/ExpGauge.h"
 #include "../ZDTGameEngine/SpecialPoints.h"
 #include "../ZDTGameEngine/StaminaPoints.h"
+#include "../ZDTGameEngine/StatBag.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 using namespace ZDTGameEngine::CharacterManagement::General;
@@ -79,6 +80,15 @@ namespace TestBasNiveau
 	TEST_CLASS(TestStats)
 	{
 	public:
-		
+		TEST_METHOD(TestStatSack)
+		{
+			StatBag *stats = new StatBag();
+			stats->DefenseMagique(30);
+			stats->DefensePhysique(70);
+			Assert::IsTrue(30 == stats->DefenseMagique());
+			Assert::IsTrue(70 == stats->DefensePhysique());
+			delete stats;
+			
+		}
 	};
 }

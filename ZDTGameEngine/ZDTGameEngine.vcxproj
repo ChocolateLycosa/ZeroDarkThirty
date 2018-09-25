@@ -172,6 +172,7 @@
     <ClInclude Include="Spell.h" />
     <ClInclude Include="StaminaPoints.h" />
     <ClInclude Include="Jauge.h" />
+    <ClInclude Include="StatBag.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Support.h" />
     <ClInclude Include="targetver.h" />
@@ -196,6 +197,7 @@
     <ClCompile Include="Spell.cpp" />
     <ClCompile Include="StaminaPoints.cpp" />
     <ClCompile Include="Jauge.cpp" />
+    <ClCompile Include="StatBag.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

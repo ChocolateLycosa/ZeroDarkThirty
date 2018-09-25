@@ -91,9 +91,6 @@
     <Filter Include="Fichiers sources\UnitTests">
       <UniqueIdentifier>{b42e5748-388f-432b-807c-b78b3047534c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Stats">
-      <UniqueIdentifier>{211b02a6-64a6-4288-b050-16b13a87ba26}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\CharacterManagement\Stats">
       <UniqueIdentifier>{8695abb4-bcff-4b2c-a8b4-b20cf16196ff}</UniqueIdentifier>
     </Filter>
@@ -165,6 +162,9 @@
     <ClInclude Include="Jauge.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement\General</Filter>
     </ClInclude>
+    <ClInclude Include="StatBag.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -229,6 +229,9 @@
     </ClCompile>
     <ClCompile Include="Jauge.cpp">
       <Filter>Fichiers sources\CharacterManagement\General</Filter>
+    </ClCompile>
+    <ClCompile Include="StatBag.cpp">
+      <Filter>Fichiers sources\CharacterManagement</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
