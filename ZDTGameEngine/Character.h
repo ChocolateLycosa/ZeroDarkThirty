@@ -6,11 +6,11 @@
 #include "StaminaPoints.h"
 #include "Classe.h"
 #include "SkillSet.h"
-#include "Equipement.h"
+#include "EquipementSet.h"
 using namespace ZDTGameEngine::CharacterManagement::General;
-using ZDTGameEngine::CharacterManagement::Skills::Classes::Classe;
-using ZDTGameEngine::CharacterManagement::Equip::Equipement;
-using ZDTGameEngine::CharacterManagement::Skills::Util::SkillSet;
+using namespace ZDTGameEngine::CharacterManagement::Equipement;
+using namespace ZDTGameEngine::CharacterManagement::Skills::Classes;
+using namespace ZDTGameEngine::CharacterManagement::Skills::Util;
 class Character
 {
 public:
@@ -24,7 +24,7 @@ protected:
 	SpecialPoints *splp;
 	StaminaPoints *stmp;
 	Classe	*classe;
-	Equipement *equipement;
+	EquipementSet *equipement;
 	SkillSet *skillSet;
 
 };

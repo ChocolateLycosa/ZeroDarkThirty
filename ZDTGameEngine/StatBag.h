@@ -12,7 +12,7 @@ public:
 	int DefenseRunique();
 	int Vitesse();
 	int Intelligence();
-	int HitRatio();
+	double HitRatio();
 	void PuissancePhysique(int val);
 	void PuissanceMagique(int val);
 	void PuissanceRunique(int val);
@@ -21,7 +21,7 @@ public:
 	void DefenseRunique(int val);
 	void Vitesse(int val);
 	void Intelligence(int val);
-	void HitRatio(int val);
+	void HitRatio(double val);
 private:
 	int _PuissancePhysique;
 	int _PuissanceMagique;
@@ -31,6 +31,6 @@ private:
 	int _DefenseRunique;
 	int _Vitesse;
 	int _Intelligence;
-	int _HitRatio;
+	double _HitRatio;
 };
 

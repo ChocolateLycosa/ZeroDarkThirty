@@ -88,11 +88,20 @@
     <Filter Include="Fichiers d%27en-tête\Resources\Database">
       <UniqueIdentifier>{673cd02e-eb58-49ce-8cff-6bb9ae84de01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\UnitTests">
-      <UniqueIdentifier>{b42e5748-388f-432b-807c-b78b3047534c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\CharacterManagement\Stats">
       <UniqueIdentifier>{8695abb4-bcff-4b2c-a8b4-b20cf16196ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Equipement\Offensif">
+      <UniqueIdentifier>{7775db97-184e-48b0-9079-df92073ac4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\CharacterManagement\Equipement\Defensif">
+      <UniqueIdentifier>{fc6e44da-b43b-4b9e-8dd0-1dc3d936f2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Equipement\Offensif">
+      <UniqueIdentifier>{f12bc2eb-e433-4cbb-bd36-e7ab3b3ecae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\CharacterManagement\Equipement\Defensif">
+      <UniqueIdentifier>{95cfb48e-ec96-4178-a43a-7dd07a18d9b7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +174,27 @@
     <ClInclude Include="StatBag.h">
       <Filter>Fichiers d%27en-tête\CharacterManagement</Filter>
     </ClInclude>
+    <ClInclude Include="EquipementSet.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement</Filter>
+    </ClInclude>
+    <ClInclude Include="DeuxMains.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement\Offensif</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPrincipale.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement\Offensif</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSecondaire.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement\Offensif</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipementDefensif.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement\Defensif</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipementOffensif.h">
+      <Filter>Fichiers d%27en-tête\CharacterManagement\Equipement\Offensif</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Fichiers d%27en-tête\ItemManagement</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -232,6 +262,27 @@
     </ClCompile>
     <ClCompile Include="StatBag.cpp">
       <Filter>Fichiers sources\CharacterManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipementSet.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipementDefensif.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement\Defensif</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipementOffensif.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement\Offensif</Filter>
+    </ClCompile>
+    <ClCompile Include="DeuxMains.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement\Offensif</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPrincipale.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement\Offensif</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSecondaire.cpp">
+      <Filter>Fichiers sources\CharacterManagement\Equipement\Offensif</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Fichiers sources\CharacterManagement\ItemManagement</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -60,7 +60,7 @@ int StatBag::Intelligence()
 	return this->_Intelligence;
 }
 
-int StatBag::HitRatio()
+double StatBag::HitRatio()
 {
 	return this->_HitRatio;
 }
@@ -105,7 +105,7 @@ void StatBag::Intelligence(int val)
 	this->_Intelligence = val;
 }
 
-void StatBag::HitRatio(int val)
+void StatBag::HitRatio(double val)
 {
 	this->_HitRatio = val;
 }
